@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body,html 
+{
+height: 100%;
+background-repeat: no-repeat; /*background image : linear-gradient(rgb(12, 97,33), rgb (104, 145, 162));*/
+background-color: black;
+position: relative;
+}
+span{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: large;
+
+}
+#loguin{
+    position: absolute;
+    top:0px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid back;
+    background: rgba(48, 46, 45, 1);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9999;
+
+}
+#loguin .logo .logo-caption {
+    font-family: 'poiret one', cursive;
+    
+	color: red;
+	text-align: center;
+	margin-bottom: 0px;
+}
